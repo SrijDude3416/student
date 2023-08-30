@@ -132,7 +132,7 @@ title: Student Blog
   letter-spacing: 0.015em; /* Adjust as needed */
   animation: 
     typing 2.5s steps(30, end),
-    blink-caret .75s step-end infinite;
+    blink-caret 1s step-end infinite;
   animation-delay: 2000ms;
   animation-fill-mode: both;
   color: #FFFFFF
