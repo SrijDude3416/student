@@ -135,6 +135,7 @@ title: Student Blog
     blink-caret .75s step-end infinite;
   animation-delay: 2000ms;
   animation-fill-mode: both;
+  color: #FFFFFF
 }
 
 /* The typing effect */
@@ -149,8 +150,16 @@ title: Student Blog
   50% { border-color: white; }
 }
 
+h2 {
+    color: #FFFFEE;
+}
+
+h1 {
+  color: #FFFFFF
+}
+
 h1:hover {
-  font-size: 50px;
+  font-size: 32px;
 }
 </style>
 
@@ -172,8 +181,10 @@ h1:hover {
   <div class="loader-section section-right"></div>
 </div>
 
-## Build you Home Page here 
-This is about your journey. Start now!!!
+<br>
+
+## Who am I?
+<img src="images/freeform.jpg">
 
 ## Overview of Hacks, Study and Tangibles
 Blogging in GitHub pages is a way to learn and code at the same time. 
