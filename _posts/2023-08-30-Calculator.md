@@ -7,7 +7,7 @@ description: A common way to become familiar with a language is to build a calcu
 permalink: /utils/calculator
 categories: [C7.0]
 courses: { compsci: {week: 2} }
-type: tangibles
+type: hacks
 ---
 
 <!-- 
@@ -40,7 +40,7 @@ HTML implementation of the calculator.
     border-radius: 10px;
     padding: 0.25em;
     font-size: 20px;
-    border: 5px solid black;
+    border: 5px solid #eeeeee;
   
     display: flex;
     justify-content: flex-end; /* Add this line to right justify the content */
@@ -52,6 +52,10 @@ HTML implementation of the calculator.
     grid-template-columns: repeat(4, 1fr);
     gap: 5px;
     margin-top: 10px;
+  }
+
+  .output {
+    font-color: #ffff;
   }
 
   .calculator-number,
@@ -113,6 +117,7 @@ HTML implementation of the calculator.
       <div class="calculator-number">.</div>
       <div class="calculator-operation">/</div>
       <div class="calculator-equals">=</div>
+      <div class="calculator-operation">^</div>
   </div>
 </div>
 
@@ -192,6 +197,9 @@ function calculate (first, second) { // function to calculate the result of the 
             break;
         case "/":
             result = first / second;
+            break;
+        case "^":
+            result = Math.pow(first, second);
             break;
         default: 
             break;
