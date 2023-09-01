@@ -24,6 +24,10 @@ courses: { compsci: {week: 2} }
     th {
         color: #dddddd;
     }
+
+    * {
+        color: #dddddd;
+     }
 </style>
 <!-- Body contains the contents of the Document -->
 <body>
