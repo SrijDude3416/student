@@ -3,7 +3,7 @@ toc: true
 comments: false 
 layout: default 
 title: KNN's and their Application 
-description: An overview of the application of Klein filters to Convolutional Neural Networks to increase generalizability of these networks under low data scenarios.
+description: An overview of the application of Klein filters to CNN's to increase generalizability of these networks during low data scenarios.
 type: tangibles 
 courses: { compsci: {week: 2} }
 ---

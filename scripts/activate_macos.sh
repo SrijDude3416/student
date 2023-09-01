@@ -32,7 +32,7 @@ $ bundle exec jekyll serve
 #     observe web site in the opened browser
 comment
 
-#### Setup CompSci / GitHub Pages Tool Requirements
+#### Setup compsci / GitHub Pages Tool Requirements
 ~/vscode/student/scripts/setup_macos.sh
 #### Show instructions
 head -32 ~/vscode/teacher/scripts/activate_macos.sh
