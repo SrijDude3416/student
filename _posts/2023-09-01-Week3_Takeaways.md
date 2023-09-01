@@ -8,6 +8,17 @@ type: tangibles
 courses: { compsci: {week: 2} }
 ---
 
-## Takeaways
+# Takeaways
 
 
+## Highest Priority Tasks Finished:
+
+- Created detailed blog on KNN's
+- Created custom CSS theme (best in the class fr fr)
+- Implemented interactive games within post
+
+
+## Other finished tasks
+
+- Implemented Snake game
+- Changed Navbar pages
