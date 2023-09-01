@@ -150,7 +150,7 @@ title: Student Blog
   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
   letter-spacing: 0.015em; /* Adjust as needed */
   animation: 
-    typing 15s steps(30, end) infinite,
+    typing 3.5s steps(30, end) infinite,
     blink-caret 1s step-end infinite;
   animation-delay: 2000ms;
   animation-fill-mode: both;
@@ -159,10 +159,10 @@ title: Student Blog
 
 /* The typing effect */
 @keyframes typing {
-  0%, 50%, 100% {
+  from {
     width: 0;
   }
-  25%, 75% {
+  to {
     width: 100%;
   }
 }
@@ -190,6 +190,21 @@ h1:hover {
   setTimeout(function() {
       document.querySelector("body").classList.add("loaded");
   }, 2000)
+});
+</script>
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  const words = ["Welcome", "to", "Srijan's", "Blog"];
+  let wordIndex = 0;
+  
+  function updateWord() {
+    const titleElement = document.querySelector(".typewriter h1");
+    titleElement.textContent = words[wordIndex];
+    wordIndex = (wordIndex + 1) % words.length;
+  }
+
+  setInterval(updateWord, 5000); // Change word every 3.5 seconds
 });
 </script>
 
