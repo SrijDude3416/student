@@ -41,6 +41,7 @@ HTML implementation of the calculator.
     padding: 0.25em;
     font-size: 20px;
     border: 5px solid #eeeeee;
+    color: #ffffff;
   
     display: flex;
     justify-content: flex-end; /* Add this line to right justify the content */
@@ -266,4 +267,12 @@ vantaInstance({
 });
 </script>
 
+<br>
+<br>
 
+## Issues, fixes, and features:
+
+
+- Solved and fixed error in which if first num was a decimal, input would be truncated to integer
+- Added custom CSS (didn't like non-static background and color theme from default)
+- Implemented exponent function
