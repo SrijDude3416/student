@@ -1,6 +1,6 @@
 ---
 toc: true
-comments: false
+comments: True 
 layout: default
 title: Valorant Statistics
 description: The statistics for all the competitive valorant games I play

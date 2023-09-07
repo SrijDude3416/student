@@ -1,10 +1,10 @@
 ---
 toc: true 
-comments: false 
+comments: True 
 layout: default 
-title: Takeaways - W3
-description: What did I learn this week?
-type: tangibles 
+title: Review Ticket
+description: What did I learn/do this week?
+type: tangibles
 courses: { compsci: {week: 2} }
 ---
 

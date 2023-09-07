@@ -1,10 +1,12 @@
 ---
+toc: True
+comments: True
 title: News Fetcher
 layout: base
 description: Fetch World News from API (github .env secrets)
 tags: [javascript]
 courses: { compsci: {week: 3} }
-type: hacks
+type: tangibles
 ---
 
 <html lang="en">
