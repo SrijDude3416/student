@@ -122,23 +122,25 @@ type: hacks
             <option value="ve">Venezuela</option>
             <option value="za">South Africa</option>
         </select>
-         <button id="fetch-button">Fetch News</button>
+        <input type="text" id="api-key" class="api-key" placeholder="Enter API Key">
+        <button id="fetch-button">Fetch News</button>
       </header>
       <div id="news-container">
          <!-- News articles will be displayed here -->
       </div>
       <script>
-      const apiKey = '814764f1663046a09341b1264b9bca5d';
         document.getElementById('fetch-button').addEventListener('click', () => {
             const selectElement = document.getElementById('country-select');
+            const apiKey = document.getElementById('api-key').value
+            console.log(apiKey)
             const selectedCountry = selectElement.value.toLowerCase();
             if (selectedCountry) {
-                getNews(selectedCountry);
+                getNews(selectedCountry, apiKey);
             } else {
                 alert('Please select a country');
             }
         });
-        async function getNews(country) {
+        async function getNews(country, apiKey) {
             const apiUrl = `https://newsapi.org/v2/top-headlines?country=${country}&apiKey=${apiKey}`;
             try {
                 const response = await fetch(apiUrl);
@@ -169,7 +171,7 @@ type: hacks
         }
         window.onload = () => {
             const defaultCountry = document.getElementById('country-select').value.toLowerCase();
-            getNews(defaultCountry);
+            // getNews(defaultCountry);
         };
         </script>
    </body>
