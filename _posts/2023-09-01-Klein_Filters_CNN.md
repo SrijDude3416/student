@@ -1,6 +1,6 @@
 ---
 toc: true 
-comments: True 
+comments: true 
 layout: default 
 title: KNN's and their Application 
 description: An overview of the application of Klein filters to CNN's to increase generalizability of these networks during low data scenarios.
