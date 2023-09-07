@@ -6,7 +6,7 @@ layout: base
 description: Fetch World News from API (github .env secrets)
 tags: [javascript]
 courses: { compsci: {week: 3} }
-type: tangibles
+type: hacks
 ---
 
 <html lang="en">

@@ -5,7 +5,7 @@ description: Use case of Javascript inputs and the 'mailto' href
 permalink: /utils/emailsend
 tags: [javascript]
 courses: { compsci: {week: 3} }
-type: tangibles
+type: hacks
 ---
 
 <html>

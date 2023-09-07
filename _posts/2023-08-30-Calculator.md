@@ -7,7 +7,7 @@ description: A common way to become familiar with a language is to build a calcu
 permalink: /utils/calculator
 categories: [C7.0]
 courses: { compsci: {week: 2} }
-type: tangibles
+type: hacks
 ---
 
 <!-- 
