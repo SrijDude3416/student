@@ -34,6 +34,8 @@ jobs:
         run: |
           pip install nbconvert
           # Add any other necessary package installations here
+        env: 
+          api_key: ${{ secrets.api_key }}
       - name: Execute conversion script
         run: python scripts/convert_notebooks.py
       - name: Build with Jekyll
