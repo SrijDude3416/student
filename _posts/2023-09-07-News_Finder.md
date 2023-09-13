@@ -129,6 +129,7 @@ type: hacks
          <!-- News articles will be displayed here -->
       </div>
       <script>
+    //   const apiKey = '814764f1663046a09341b1264b9bca5d';
         document.getElementById('fetch-button').addEventListener('click', () => {
             const selectElement = document.getElementById('country-select');
             const apiKey = document.getElementById('api-key').value

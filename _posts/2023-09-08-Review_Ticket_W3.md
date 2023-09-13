@@ -9,7 +9,14 @@ courses: { compsci: {week: 3} }
 ---
 
 ## My Week's Completed Work at a Glance:
-1. Outlined a detailed plan for the week with Akhil
-2. Completed the Titanic Survival Python Interactive project
-3. Completed the News Fetch API Javascript Interactive project
-4. 
+- Outlined a detailed plan for the week with Akhil
+- Coordinated with Akhil regarding the Pair Showcase and our responsibilities
+- Completed the Titanic Survival Python Interactive project
+- Completed the News Fetch API Javascript Interactive project
+- Collaborated with others to receive outside feedback on my website
+- Collaborated with Akhil to coordinate our presentation
+
+## What I learned:
+- Fetching from an API in Javascript
+- Dropdown menu inputs in Javascript
+- Using github issues
