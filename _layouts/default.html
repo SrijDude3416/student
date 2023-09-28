@@ -36,6 +36,9 @@
 
     <section>
       {{ content }}
+      {%- if page.comments -%}
+      {%- include utterances.html -%}
+    {%- endif -%}
     </section>
 
   </div>
