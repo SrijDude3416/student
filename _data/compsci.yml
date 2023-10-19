@@ -9,3 +9,8 @@ Unit2:
   description: Learn (JavaScript|Python|Java).  Start Agile development process.
   start: 4
   end: 7
+Unit3:
+  title: Team Teaches + PP
+  description: Learn College Board material and work on passion project.
+  start: 8
+  end: 12
