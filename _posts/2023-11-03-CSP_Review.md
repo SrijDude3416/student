@@ -45,6 +45,12 @@ Used GitHub issues along with my partner Advik to organize work:
 - Javascript
 - HTML/CSS
 
+# Team Teach:
+I was responsible for the creation of curriculum up until the first Popcorn hack based on Advik's wireframe that he created
+
+This consisted of for loops, while loops, and iteration through dictionaries/lists
+
+Through this team teach, I learne
 
 # Passion Project Lyrics Create API
 
@@ -59,7 +65,7 @@ class Song(db.Model):
     artist = db.Column(db.String, nullable=False)
     genre = db.Column(db.String, nullable=False)
     lyrics = db.Column(db.String, nullable=False)
-    def __init__(self, character, song_name, artist, genre, lyrics): # Constructer 
+    def __init__(self, character, song_name, artist, genre, lyrics): # Constructor 
         self.character = character
         self.song_name = song_name
         self.artist = artist
@@ -96,11 +102,12 @@ class Song(db.Model):
 
 def initSongs():
     # Adds each song + its metadata to the db
-    song1 = Song(character="Walter White", song_name="Changes", artist="David Bowie", genre="Art Pop", lyrics=genius.search_song("Changes", "David Bowie").lyrics.split("Lyrics")[1]); db.session.add(song1)#replace with real data
+    song1 = Song(character="Walter White", song_name="Changes", artist="David Bowie", genre="Art Pop", lyrics=genius.search_song("Changes", "David Bowie").lyrics.split("Lyrics")[1]); db.session.add(song1)
     song2 = Song(character="Walter White", song_name="Back in Black", artist="AC/DC", genre="Hard Rock", lyrics=genius.search_song("Back in Black", "AC/DC").lyrics.split("Lyrics")[1]); db.session.add(song2)
     song3 = Song(character="Walter White", song_name="Baby Blue", artist="Badfinger", genre="Rock", lyrics=genius.search_song("Baby Blue", "Badfinger").lyrics.split("Lyrics")[1]); db.session.add(song3)
     db.session.commit()
 ```
+
 
 ### Issue #1
 - when frontend reloaded and backend ran, the Genius API called for all songs once again which caused the website to run very slowly
@@ -110,7 +117,16 @@ def initSongs():
 - Extra junk text was displayed from the lyricgenius 
 - Fixed by splitting at the extra characters and displaying that
 
-# College Board MC
+# Scrum-ming
+
+- As the scrum master of my team I had the responsibility of work division
+- From this I learned:
+  - Efficient work management
+  - How to actively facilitate conversation
+  - Ensuring people are on task
+  - 
+
+# College Board MCQ
 - REALLY long
 - Pacing
 - 60/66 :(
@@ -125,6 +141,20 @@ def initSongs():
 - I think this was due to how long the test was
 - Something I can do to fix this for the future will be to slow down a bit in the beginning since I went rather fast in the beginning and got a bit tired
 
-Towards the end of the test I began losing focus and because of that, I got almost 4 questions wrong in a row for misreading and misunderstanding questions.
+### - Problem 40:
+- I thought the problem was talking about only the data given.
+- I didn't realize that the data provided was only an example from two of the students
+
+### - Problem 41:
+- I did not account for the case in which the final exam was lower than the midterm
+
+### - Problem 43:
+- Is a time complexity of n^2 reasonable, I don't think so.
+
+### - Problem 46:
+- The reason that it's not possible to determine, given any program and program input, whether or not the program will go into an infinite loop for that input is because there are infinitely many edge-cases to account for
+- This is simply unreasonable
+
+Towards the end of the test I began losing focus and because of that, I got <b>4</b> questions wrong in a row for misreading and misunderstanding questions.
 
 The main takeaway for me from this test is to pace myself during future tests
