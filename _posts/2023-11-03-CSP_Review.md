@@ -227,3 +227,6 @@ function addSong() {
 Towards the end of the test I began losing focus and because of that, I got <b>4</b> questions wrong in a row for misreading and misunderstanding questions.
 
 The main takeaway for me from this test is to pace myself during future tests
+
+# Tri 1 Review:
+As the first trimester of the school year concludes, it's important to reflect on the notable progress and skills acquired during this period. Utilizing GitHub issues for efficient project organization, mastering AGILE collaboration, and embracing various tools such as Git, VSCode, WSL/Linux, and AWS have enriched our technical expertise. In our passion project, the Lyrics Create API, we developed a robust class for song data management and overcame challenges like API optimization and CORS issues. Serving as a Scrum master provided invaluable experience in effective work management and facilitation. College Board MCQ tests highlighted the need for pacing and maintaining focus. Moving forward, we aim to build upon these lessons, strengthen collaboration, and further excel in the upcoming trimesters.
