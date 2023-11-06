@@ -117,6 +117,75 @@ def initSongs():
 - Extra junk text was displayed from the lyricgenius 
 - Fixed by splitting at the extra characters and displaying that
 
+# PP Frontend Integration
+
+```js
+....
+    <div class="table-container">
+      <div class="add-container">
+        <h2>Add a song</h2>
+        <label for="songName">Song Name:</label>
+        <input type="text" id="songName" placeholder="Enter song name">
+
+        <label for="artistName">Artist Name:</label>
+        <input type="text" id="artistName" placeholder="Enter artist name">
+
+        <label for="genre">Genre:</label>
+        <input type="text" id="genre" placeholder="Enter genre">
+
+        <label for="character">Person:</label>
+        <input type="text" id="character" placeholder="Enter name">
+      
+        
+        <button onclick="addSong()">Add</button>
+      </div>
+      <!-- HTML table for displaying data -->
+      <table class="hacker-theme">
+        <h2>Songs</h2>
+        <thead>
+          <tr>
+            <th>Character</th>
+            <th>Song Name</th>
+            <th>Artist</th>
+            <th>Genre</th>
+            <th>Lyrics</th>
+            <th>Lyrics Toggle</th>
+          </tr>
+        </thead>
+        <tbody id="result">
+          <!-- Data will be populated here -->
+        </tbody>
+      </table>
+    </div>
+  </div>
+.....
+function addSong() {
+      const songName = document.getElementById("songName").value;
+      const artistName = document.getElementById("artistName").value;
+      const genre = document.getElementById("genre").value;
+      const character = document.getElementById("character").value;
+
+      const apiUrl2 = `http://localhost:8069/api/song/create`
+      var body = {
+        "song_name": songName,
+        "artist": artistName,
+        "genre": genre,
+        "character": character,
+      }
+      fetch("http://localhost:8069/api/song/create", {method:'POST', body: JSON.stringify(body), headers: {
+      'Content-type': 'application/json',
+      }})
+        .then(response => response.json())  
+        .then(json => {
+          console.log(json)
+          fetchSongs()
+      })
+    }
+```
+
+- I was also responsible for the integration of the create method between backend and frontend
+- I encountered a few CORS erros when switching from the AWS backend to the locally hosted backend but fixed them by hosting it through terminal instead of docker and adding the http:// prefix to the localhost address 
+
 # Scrum-ming
 
 - As the scrum master of my team I had the responsibility of work division
