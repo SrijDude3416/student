@@ -81,7 +81,7 @@ bundle install
     ---
     toc: true
     comments: false
-    layout: post
+    layout: default
     title: Daily Plan Sample
     description: Example Blog!!!  This shows planning and notes from hacks.
     type: plans
