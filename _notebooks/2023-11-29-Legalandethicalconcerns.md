@@ -1,5 +1,5 @@
 ---
-toc: true
+toc: false
 comments: false
 layout: default
 title: Student Teach - Legal and Ethical Concerns of Technology 
