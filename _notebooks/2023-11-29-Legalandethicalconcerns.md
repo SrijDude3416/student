@@ -133,10 +133,20 @@ Data Privacy and Security:
 # <span style="color:cadetblue">Homework</span>
 
 1. Describe the key differences between the Creative Commons Zero v1.0 Universal, Open Source MIT License, and Open Source GPL License.
+    Creative Commons Zero v1.0 Universal (CC0):
+        CC0 is designed to dedicate works to the public domain, allowing creators to relinquish all copyright and related rights. It offers maximum flexibility by removing restrictions on usage, modification, and distribution, imposing no conditions on users.
+
+    Open Source MIT License:
+        The MIT License, a permissive license, enables developers to freely use, modify, and distribute software while requiring the inclusion of the original copyright and license notice. It is simple and permissive, with minimal restrictions.
+
+    Open Source GPL License:
+        The GPL is a copyleft license aiming to keep derivative works open source. Users can freely use, modify, and distribute the software, but any distributed derivative work must adhere to the GPL, creating a "viral" effect.
 
 2. Give examples that illustrate how companies, such as Qualcomm and Red Hat, have leveraged Open Source licenses to establish unique business models.
+   1. Qualcomm has embraced open source licenses for components in its products, contributing to the Android OS, fostering collaboration, and promoting Qualcomm's hardware adoption. Red Hat's business model centers around open source, providing enterprise support, services, and solutions for Linux. Revenue is generated through subscription-based services, support, and consultancy.
 
 3. Why are businesses that heavily rely on Open Source software still need to generate income and how they manage this within the constraints of Open Source licenses.
+   1. Even with open source reliance, businesses need income for sustained growth and support. Qualcomm benefits from broader ecosystem collaboration, while Red Hat generates revenue by offering enterprise-level support, services, and consultancy, creating a sustainable business model within the constraints of open source licenses.
 
 # <span style="color:cadetblue">Extra Credit</span>
 
