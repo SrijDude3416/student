@@ -1,0 +1,20 @@
+---
+toc: false
+comments: true
+layout: default
+title: 5.1 Routing and Computing
+description: Routing and Computing Homework
+type: hacks
+courses: { compsci: {week: 14} }
+---
+
+Question 1:
+parallel computing is where there are simultaneous processes occurring to increase the speed of computation.
+Question 2:
+The program will finish after 632ms because the program is only as fast as its slowest core
+Question 3:
+Parallel computing is more efficient because it allows for multiple computations to occur simulataneously
+Question 4:
+network redundancy/path redundancy
+Question 5:
+Yes, the network is fault tolerant because there are multiple paths for packets to travel to nodes.

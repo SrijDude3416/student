@@ -2,7 +2,7 @@
 toc: false
 comments: false
 layout: default
-title: Student Teach - Legal and Ethical Concerns of Technology 
+title: 5.5 Legal and Ethical Concerns of Technology 
 description: A lesson on the legal and ethical concerns of technology! By Aditi, Eshika, Cindy, Avanthika, Nupur 
 type: hacks
 courses: { compsci: {week: 17} }
