@@ -1,3 +1,13 @@
+---
+toc: True
+comments: False
+layout: default
+title: Individual Review Part 2
+description: Individual Review Part 2
+type: compsci
+courses: {'compsci': {'week': 15}}
+---
+
 # Individual Review Part 2
 
 ## Tri 1 of AP CSP
