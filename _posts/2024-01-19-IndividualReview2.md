@@ -5,7 +5,7 @@ layout: default
 title: Individual Review Part 2
 description: Individual Review Part 2
 type: compsci
-courses: {'compsci': {'week': 15}}
+courses: {'compsci': {'week': 17}}
 ---
 
 # Individual Review Part 2
