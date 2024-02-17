@@ -68,7 +68,7 @@ description: Login Page
     <p>
         <button>Login</button>
     </p>
-    <p id="loginStatus" name="loginStatus">null</p>
+    <p id="loginStatus" name="loginStatus"></p>
 </form>
 
 <!-- 
@@ -109,10 +109,10 @@ The script defines a function when the page loads. This function is triggered wh
             if (!response.ok) {
                 const errorMsg = 'Login error: ' + response.status;
                 console.log(errorMsg);
-                if (response.status == 500) {
+                if (response.status == 400) {
                     document.getElementById("loginStatus").innerHTML = "incorrect username or password";
-                    return;
                 }
+                return;
             }
             
             // Success!!!
@@ -122,7 +122,7 @@ The script defines a function when the page loads. This function is triggered wh
         })
         // catch fetch errors (ie ACCESS to server blocked)
         .catch(err => {
-            window.location.href = "http://127.0.0.1:4200/student/2024/01/31/403error.html"
+            window.location.href = "http://127.0.0.1:4200/student/2024/01/31/401error.html"
             console.error(err);
         });
     }

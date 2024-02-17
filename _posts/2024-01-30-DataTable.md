@@ -40,7 +40,7 @@ description: Data Table
             // check for response errors and display
             if (response.status !== 200) {
                 const errorMsg = 'Database response error: ' + response.status;
-                window.location.href = "http://127.0.0.1:4200/student/2024/01/31/403error.html";
+                window.location.href = "http://127.0.0.1:4200/student/2024/01/31/401error.html";
                 console.log(errorMsg);
                 const tr = document.createElement("tr");
                 const td = document.createElement("td");
@@ -69,7 +69,7 @@ description: Data Table
             })
             // catch fetch errors (i.e., ACCESS to server blocked)
             .catch(err => {
-                window.location.href = "http://127.0.0.1:4200/student/2024/01/30/403error.html"
+                window.location.href = "http://127.0.0.1:4200/student/2024/01/30/401error.html"
                 console.error(err);
                 const tr = document.createElement("tr");
                 const td = document.createElement("td");
@@ -103,7 +103,7 @@ description: Data Table
             // check for response errors and display
             if (response.status !== 200) {
                 const errorMsg = 'Database response error: ' + response.status;
-                window.location.href = "http://127.0.0.1:4200/student/2024/01/31/403error.html";
+                window.location.href = "http://127.0.0.1:4200/student/2024/01/31/401error.html";
                 console.log(errorMsg);
                 const tr = document.createElement("tr");
                 const td = document.createElement("td");
@@ -172,7 +172,7 @@ description: Data Table
           .then(response => {
             // check for response errors and display
             if (response.status !== 200) {
-                window.location.href = "http://127.0.0.1:4200/student/2024/01/31/403error.html";
+                window.location.href = "http://127.0.0.1:4200/student/2024/01/31/401error.html";
             }
             // valid response will contain JSON data
             response.json().then(data => {

@@ -19,11 +19,7 @@ description: Sign Up
     </label></p>
     <p><label>
         Full Name:
-        <input type="text" name="Name" id="Name" required="" />
-    </label></p>
-    <p><label>
-        Type:
-        <input type="text" name="Type" id="Type" required="" />
+        <input type="text" name="name" id="name" required="" />
     </label></p>
     <p>
         <button>Create User</button>
@@ -46,8 +42,7 @@ The script defines a function when the page loads. This function is triggered wh
         const body = {
             uid: document.getElementById("uid").value,
             password: document.getElementById("password").value,
-            name: document.getElementById("Name").value,
-            type: document.getElementById("Type").value
+            name: document.getElementById("name").value
         };
 
         // Change options according to Authentication requirements
