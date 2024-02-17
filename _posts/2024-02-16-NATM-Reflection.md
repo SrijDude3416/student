@@ -23,6 +23,8 @@ so that there are more customizable options for users to play around with.
 
 Here are some image highlights from the night and some projects we went around and saw. Overall, the night was quite fun!
 
+One project that I thought was the coolest was a super mario recreation. In the project, its sound effects, game controls, and pretty much every aspect to it was almost perfect. Can't wait to be in CSA and create things like it.
+
 ![](../../../images/IMG_5933.JPG)
 ![](../../../images/IMG_5934.JPG)
 ![](../../../images/IMG_5935.JPG)
