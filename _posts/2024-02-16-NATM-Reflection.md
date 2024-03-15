@@ -2,11 +2,13 @@
 toc: True
 comments: True
 layout: default
-title: NATM REFLECTION
-description: Info I learned
+title: Tri 2 Reflection
+description: Tri 2 Reflection
 type: tangibles
 courses: {'compsci': {'week': 12}}
 ---
+
+This trimester of CSP was a very productive one in which I focused on frontend instead of backend which I did last tri. I gained numerous skills such as proficiency in connecting frontend and backend, frontend interaction with javascript and HTML, and teamwork skills to allow for more efficient work.
 
 # GLOW and GROWS
 
